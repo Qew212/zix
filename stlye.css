@@ -1,0 +1,153 @@
+head {
+  background-color: brown;
+  color: rgb(24, 24, 53);
+}
+body {
+  background-image:black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  padding: 5%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+footer {
+  background-color: black;
+}
+h1 {
+ color: black;
+ -webkit-text-fill-color: rgb(255, 255, 255); 
+ -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: black;
+ font-size: 35px;
+ margin: 0px;
+ text-align: center;
+}
+li {
+ display: : inline-block;
+ margin-left: 20px;
+}
+div {
+ background-color: azure;
+ color: rgb(0, 0, 0);
+ margin: auto;
+ width: 300px;
+}
+header {
+ background-color: rgb(0, 0, 0);
+ font-size: large;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 20;
+overflow: hidden;
+background-color: #000000;
+border-style: dashed white;
+text-align: center;
+}
+
+li {
+float: left;
+border-right:1px solid #ffffff;
+}
+
+li:last-child {
+border-right: none;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 10px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #111;
+}
+
+.active {
+background-color: #000000;
+}
+
+.myDiv {
+  background-color: rgb(196, 217, 255);
+  color: #111;
+  margin: auto;
+  width: 800px;
+}
+picture {
+ box-sizing: border-box;
+ }
+
+.wa {
+float: left;
+width: 33.33%;
+padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.wo::after {
+content: "";
+clear: both;
+display: table;
+}
+table {
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+}
+td {
+  color: aqua;
+  display: table-cell;
+  vertical-align: inherit;
+  unicode-bidi: isolate;
+  padding: 20px;
+  margin: 20px;
+}
+
+.nbb:hover {
+  animation: shake 0.5s;
+animation-iteration-count: infinite;
+}
+
+ @keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg);}
+  10% { transform: translate(-1px, -2px) rotate(-1deg);}
+  20% { transform: translate(-3px, 0px) rotate(1deg);}
+  30% { transform: translate(3px, 2px) rotate(0deg);}
+  40% { transform: translate(1px, -1px) rotate(1deg);}
+  50% { transform: translate(-1px, 2px) rotate(-1deg);}
+  60% { transform: translate(-3px, 1px) rotate(0deg);}
+  70% { transform: translate(3px, 1px) rotate(-1deg);}
+  80% { transform: translate(-1px, -1px) rotate(1deg);}
+  90% { transform: translate(1px, 2px) rotate(0deg);}
+  100% { transform: translate(1px, -2px) rotate(-1deg);}
+}
+.nbb {
+  border: 25px solid #03f2fa;
+}
+b {
+  color: #000000;
+  text-shadow:1px 1px 1px #ff0000 ;
+  font-size: 20px;
+}
+div {
+  background-color: rgb(0, 213, 255);
+
+    width: 200px;
+    height: 25px;
+    padding: 10px;
+    border: 5px solid rgb(20, 50, 120);
+    margin: 0;
+  }
+}

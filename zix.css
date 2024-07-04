@@ -1,0 +1,22 @@
+body {
+  background-image: url("https://i.pinimg.com/564x/2a/eb/28/2aeb287197de730f334e7c5c7592aae7.jpg");
+  color: black;
+  font-family: arial;
+  object-fit: cover;
+}
+		td {
+  border: 1px solid #fb0707;
+  padding: 0.1em 1em;
+  background-color: black;
+    }
+    td {
+        display: table-cell;
+        vertical-align: inherit;
+        unicode-bidi: isolate;
+    }
+h3 {
+    color: aliceblue;
+}
+h2 {
+    color: aliceblue;
+}
